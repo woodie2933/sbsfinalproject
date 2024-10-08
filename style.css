@@ -1,1 +1,38 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* nav */
+#nav_icon {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 30px;
+  z-index: 2;
+  background: #2575fc;
+}
+#nav_icon .nav {
+  position: fixed;
+  top: 30px;
+  right: 60px;
+}
+
+#sec0 {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+#fp-nav ul li a span {
+  background: #fff;
+}/*# sourceMappingURL=style.css.map */
